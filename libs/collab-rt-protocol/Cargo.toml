@@ -16,7 +16,7 @@ bincode.workspace = true
 anyhow.workspace = true
 tracing.workspace = true
 async-trait.workspace = true
-tokio = "1.36.0"
+tokio = "1.43.1"
 collab-entity.workspace = true
 
 [features]

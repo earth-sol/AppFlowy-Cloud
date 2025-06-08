@@ -14,7 +14,7 @@ shared-entity = { path = "../libs/shared-entity" }
 
 anyhow.workspace = true
 axum = { version = "0.7", features = ["json"] }
-tokio = { version = "1.36", features = ["rt-multi-thread", "macros"] }
+tokio = { version = "1.43", features = ["rt-multi-thread", "macros"] }
 askama = "0.12"
 axum-extra = { version = "0.9", features = ["cookie"] }
 serde.workspace = true
